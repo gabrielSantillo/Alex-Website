@@ -154,3 +154,42 @@ img {
 #page-main-youtube-section>iframe {
     width: 90vw;
 }
+
+#page-main-social-media {
+    display: grid;
+    margin-top: 20px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+#page-main-social-media>h1 {
+    padding: 30px 30px 15px;
+    letter-spacing: 4px;
+}
+
+#page-main-social-media-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    place-items: center;
+}
+
+#page-main-social-media-logos>img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#page-main-social-media-logos>img:hover {
+    cursor: pointer;
+}
+
+#page-footer {
+    min-height: 150px;
+    background-color: rgb(168, 0, 0);
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    display: grid;
+    place-items: center;
+}
